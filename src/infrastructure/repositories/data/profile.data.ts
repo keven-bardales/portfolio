@@ -14,6 +14,10 @@ export const PROFILE_DATA: Profile = {
     'Más de 3 años construyendo aplicaciones web escalables de extremo a extremo. He entregado flujos de pagos con Stripe Connect, integraciones con SAP Business One y sistemas CRM usados en producción. Tomé el control de producción durante la ausencia prolongada de mi lead engineer. Uso diario de Claude Code y flujos basados en MCP.',
   ),
   email: 'keven.bardales@gmail.com',
+  resumeUrl: {
+    en: '/keven-bardales-cv.pdf',
+    es: '/keven-bardales-cv.pdf',
+  },
   availability: 'open',
   yearsOfExperience: 3,
 };
