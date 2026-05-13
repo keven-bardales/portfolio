@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "siteName": "Keven Bardales",
+    "siteRole": "Software Engineer",
+    "defaultDescription": "Software Engineer building production-grade full-stack systems. Stripe Connect, SAP Business One, and AI-augmented workflows."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Software Engineer",
+      "location": "San Pedro Sula, Honduras",
+      "available": "Available for remote work",
+      "ctaPrimary": "Selected work",
+      "ctaSecondary": "Get in touch"
+    },
+    "about": {
+      "label": "About"
+    },
+    "featured": {
+      "title": "Selected work",
+      "subtitle": "A handful of projects shipped to production",
+      "viewAll": "View all projects"
+    },
+    "experience": {
+      "title": "Experience",
+      "subtitle": "Three years of full-stack engineering",
+      "present": "Present"
+    },
+    "skills": {
+      "title": "Stack",
+      "subtitle": "Tools and technologies I use to ship"
+    },
+    "cta": {
+      "title": "Have a project in mind?",
+      "subtitle": "I help teams ship payments, integrations, and AI-augmented workflows.",
+      "button": "Start a conversation"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Work shipped in production across fintech, retail, and real estate.",
+    "filterAll": "All",
+    "links": {
+      "live": "Visit",
+      "repo": "Source",
+      "caseStudy": "Read more"
+    },
+    "detail": {
+      "back": "All projects",
+      "techStack": "Stack",
+      "impact": "Impact",
+      "year": "Year"
+    }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "How I work and what I care about.",
+    "philosophy": "Philosophy",
+    "ai": "Working with AI",
+    "downloadResume": "Download CV",
+    "contactMe": "Contact me"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "For project work, contract roles, or just to say hi.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thanks — I'll get back to you within 24 hours.",
+      "errors": {
+        "name_required": "Name is required",
+        "email_required": "Email is required",
+        "email_invalid": "Please enter a valid email",
+        "message_required": "Message is required",
+        "message_too_short": "Message must be at least 10 characters",
+        "server_error": "Something went wrong. Please try again or email directly.",
+        "rate_limited": "Too many attempts. Please try again later."
+      }
+    },
+    "direct": "Or email me directly"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "builtWith": "Built with Next.js, TypeScript, and Tailwind"
+  },
+  "theme": {
+    "toggleLight": "Switch to light mode",
+    "toggleDark": "Switch to dark mode",
+    "toggle": "Toggle theme"
+  },
+  "locale": {
+    "switch": "Language",
+    "en": "English",
+    "es": "Español"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "The page you're looking for doesn't exist.",
+    "back": "Go home"
+  }
+}

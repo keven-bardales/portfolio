@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "siteName": "Keven Bardales",
+    "siteRole": "Ingeniero de Software",
+    "defaultDescription": "Ingeniero de Software construyendo sistemas full-stack de producción. Stripe Connect, SAP Business One y flujos potenciados con IA."
+  },
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Ingeniero de Software",
+      "location": "San Pedro Sula, Honduras",
+      "available": "Disponible para trabajo remoto",
+      "ctaPrimary": "Proyectos seleccionados",
+      "ctaSecondary": "Contáctame"
+    },
+    "about": {
+      "label": "Sobre mí"
+    },
+    "featured": {
+      "title": "Proyectos seleccionados",
+      "subtitle": "Una muestra de proyectos en producción",
+      "viewAll": "Ver todos los proyectos"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "subtitle": "Tres años construyendo full-stack",
+      "present": "Presente"
+    },
+    "skills": {
+      "title": "Stack",
+      "subtitle": "Herramientas y tecnologías con las que entrego producto"
+    },
+    "cta": {
+      "title": "¿Tienes un proyecto en mente?",
+      "subtitle": "Ayudo a equipos a enviar pagos, integraciones y flujos potenciados con IA.",
+      "button": "Iniciar una conversación"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajo en producción en fintech, retail y bienes raíces.",
+    "filterAll": "Todos",
+    "links": {
+      "live": "Visitar",
+      "repo": "Código",
+      "caseStudy": "Leer más"
+    },
+    "detail": {
+      "back": "Todos los proyectos",
+      "techStack": "Stack",
+      "impact": "Impacto",
+      "year": "Año"
+    }
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Cómo trabajo y qué me importa.",
+    "philosophy": "Filosofía",
+    "ai": "Trabajando con IA",
+    "downloadResume": "Descargar CV",
+    "contactMe": "Contáctame"
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "Para proyectos, contratos o simplemente saludar.",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Gracias — te responderé en menos de 24 horas.",
+      "errors": {
+        "name_required": "El nombre es obligatorio",
+        "email_required": "El correo es obligatorio",
+        "email_invalid": "Ingresa un correo válido",
+        "message_required": "El mensaje es obligatorio",
+        "message_too_short": "El mensaje debe tener al menos 10 caracteres",
+        "server_error": "Algo salió mal. Inténtalo de nuevo o escríbeme directamente.",
+        "rate_limited": "Demasiados intentos. Inténtalo más tarde."
+      }
+    },
+    "direct": "O escríbeme directamente a"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "builtWith": "Hecho con Next.js, TypeScript y Tailwind"
+  },
+  "theme": {
+    "toggleLight": "Cambiar a modo claro",
+    "toggleDark": "Cambiar a modo oscuro",
+    "toggle": "Cambiar tema"
+  },
+  "locale": {
+    "switch": "Idioma",
+    "en": "English",
+    "es": "Español"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "subtitle": "La página que buscas no existe.",
+    "back": "Volver al inicio"
+  }
+}
