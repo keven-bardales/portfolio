@@ -8,6 +8,11 @@ RUN npm ci --omit=dev=false
 FROM node:20-alpine AS build
 WORKDIR /app
 ENV NEXT_TELEMETRY_DISABLED=1
+# Build-time env vars (passed by Railway as docker build args from service env)
+ARG SITE_URL
+ARG NEXT_PUBLIC_SITE_URL
+ENV SITE_URL=$SITE_URL
+ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN npm run build
