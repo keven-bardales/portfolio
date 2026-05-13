@@ -4,7 +4,7 @@ import { services } from '@/infrastructure/container/container';
 import { env } from '@/shared/config/env';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = env.NEXT_PUBLIC_SITE_URL;
+  const base = env.SITE_URL;
   const projects = await services.project.list();
   const staticPaths = ['', '/projects', '/about', '/contact'] as const;
   const now = new Date();

@@ -4,6 +4,6 @@ import { env } from '@/shared/config/env';
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [{ userAgent: '*', allow: '/' }],
-    sitemap: `${env.NEXT_PUBLIC_SITE_URL}/sitemap.xml`,
+    sitemap: `${env.SITE_URL}/sitemap.xml`,
   };
 }

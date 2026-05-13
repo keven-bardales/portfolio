@@ -12,7 +12,7 @@ interface BuildMetadataInput {
 }
 
 export function buildMetadata(input: BuildMetadataInput): Metadata {
-  const url = `${env.NEXT_PUBLIC_SITE_URL}/${input.locale}${input.path}`;
+  const url = `${env.SITE_URL}/${input.locale}${input.path}`;
   return {
     title: input.title,
     description: input.description,

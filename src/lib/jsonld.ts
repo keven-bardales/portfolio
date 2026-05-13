@@ -19,7 +19,7 @@ export function personJsonLd(
       '@type': 'PostalAddress',
       addressLocality: profile.location[locale],
     },
-    url: env.NEXT_PUBLIC_SITE_URL,
+    url: env.SITE_URL,
     sameAs: social
       .filter((s) => s.kind !== 'email')
       .map((s) => s.href),

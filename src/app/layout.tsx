@@ -20,7 +20,7 @@ const instrumentSerif = Instrument_Serif({
 const themeScript = `(function(){try{var t=localStorage.getItem('theme');var m=window.matchMedia('(prefers-color-scheme: dark)').matches;var d=t==='dark'||(t!=='light'&&m);document.documentElement.classList.toggle('dark',d);document.documentElement.setAttribute('data-theme-ready','true');}catch(e){}})();`;
 
 export const metadata: Metadata = {
-  metadataBase: new URL(env.NEXT_PUBLIC_SITE_URL),
+  metadataBase: new URL(env.SITE_URL),
   title: {
     default: 'Keven Bardales — Software Engineer',
     template: '%s · Keven Bardales',
