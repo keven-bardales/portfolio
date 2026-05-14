@@ -29,7 +29,12 @@ export const metadata: Metadata = {
     'Software Engineer building production full-stack systems — Stripe Connect, SAP Business One, AI-augmented workflows. Available for remote roles.',
   authors: [{ name: 'Keven Bardales' }],
   creator: 'Keven Bardales',
-  icons: { icon: '/favicon.ico' },
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/apple-icon',
+  },
 };
 
 export const viewport: Viewport = {

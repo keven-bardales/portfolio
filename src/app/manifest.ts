@@ -8,8 +8,21 @@ export default function manifest(): MetadataRoute.Manifest {
       'Software Engineer building production full-stack systems — Stripe, SAP, AI workflows.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#ffffff',
-    theme_color: '#000000',
-    icons: [{ src: '/favicon.ico', sizes: 'any', type: 'image/x-icon' }],
+    background_color: '#0a0a0a',
+    theme_color: '#386cff',
+    icons: [
+      {
+        src: '/icon.svg',
+        sizes: 'any',
+        type: 'image/svg+xml',
+        purpose: 'any',
+      },
+      {
+        src: '/apple-icon',
+        sizes: '180x180',
+        type: 'image/png',
+        purpose: 'maskable',
+      },
+    ],
   };
 }
