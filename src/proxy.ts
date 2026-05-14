@@ -24,6 +24,8 @@ export function proxy(req: NextRequest) {
     pathname === '/robots.txt' ||
     pathname === '/sitemap.xml' ||
     pathname === '/manifest.webmanifest' ||
+    pathname === '/apple-icon' ||
+    pathname === '/icon' ||
     PUBLIC_FILE.test(pathname)
   ) {
     return;
