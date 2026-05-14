@@ -109,16 +109,42 @@ export default async function AboutPage({
           </article>
         </div>
 
-        <div className="flex flex-wrap gap-3 pt-4">
-          <Button href={`/${locale}/contact`} variant="primary">
-            {dict.about.contactMe}
-            <ArrowRight className="h-4 w-4" aria-hidden />
-          </Button>
-          {profile.resumeUrl ? (
-            <Button href={profile.resumeUrl[locale]} variant="secondary">
-              <Download className="h-4 w-4" aria-hidden />
-              {dict.about.downloadResume}
+        <div className="flex flex-col gap-3 pt-4">
+          <div className="flex flex-wrap gap-3">
+            <Button href={`/${locale}/contact`} variant="primary">
+              {dict.about.contactMe}
+              <ArrowRight className="h-4 w-4" aria-hidden />
             </Button>
+            {profile.resumeUrl ? (
+              <Button href={profile.resumeUrl[locale]} variant="secondary">
+                <Download className="h-4 w-4" aria-hidden />
+                {dict.about.downloadResume}
+              </Button>
+            ) : null}
+            {profile.recommendationLetterUrl ? (
+              <Button
+                href={profile.recommendationLetterUrl[locale]}
+                variant="secondary"
+              >
+                <Download className="h-4 w-4" aria-hidden />
+                {dict.about.downloadRecommendation}
+              </Button>
+            ) : null}
+          </div>
+          {profile.recommendationLetterUrl && profile.recommender ? (
+            <p className="text-xs text-text-muted">
+              {dict.about.downloadRecommendation} {dict.about.recommendationBy}{' '}
+              <a
+                href={profile.recommender.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-text underline-offset-2 hover:underline"
+              >
+                {profile.recommender.name}
+              </a>
+              {' — '}
+              {profile.recommender.role[locale]}
+            </p>
           ) : null}
         </div>
       </Container>

@@ -10,6 +10,12 @@ export interface Profile {
   readonly phone?: string;
   readonly avatarUrl?: string;
   readonly resumeUrl?: { readonly en: string; readonly es: string };
+  readonly recommendationLetterUrl?: { readonly en: string; readonly es: string };
+  readonly recommender?: {
+    readonly name: string;
+    readonly role: LocalizedString;
+    readonly linkedinUrl: string;
+  };
   readonly availability: 'open' | 'limited' | 'unavailable';
   readonly yearsOfExperience: number;
 }

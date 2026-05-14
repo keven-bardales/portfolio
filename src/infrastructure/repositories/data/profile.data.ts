@@ -18,6 +18,18 @@ export const PROFILE_DATA: Profile = {
     en: '/keven-bardales-cv.pdf',
     es: '/keven-bardales-cv.pdf',
   },
+  recommendationLetterUrl: {
+    en: '/keven-bardales-recommendation-letter.pdf',
+    es: '/keven-bardales-recommendation-letter.pdf',
+  },
+  recommender: {
+    name: 'Ivan Huerta',
+    role: localized(
+      'Engineering Partner at The Pay It Forward Company',
+      'Engineering Partner en The Pay It Forward Company',
+    ),
+    linkedinUrl: 'https://www.linkedin.com/in/ivan-huerta-17a96b112/',
+  },
   availability: 'open',
   yearsOfExperience: 3,
 };

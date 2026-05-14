@@ -65,6 +65,8 @@
     "philosophy": "Philosophy",
     "ai": "Working with AI",
     "downloadResume": "Download CV",
+    "downloadRecommendation": "Recommendation letter",
+    "recommendationBy": "by",
     "contactMe": "Contact me"
   },
   "contact": {
